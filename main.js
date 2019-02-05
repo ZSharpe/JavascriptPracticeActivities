@@ -1,4 +1,4 @@
-// Array Problem Set
+// Array Looping Practice
 
 // Print reverse function to print the reverse of an Array
 
@@ -16,8 +16,9 @@ printReverse(["H","C","A","Z"]);
 
 // Array Objects Practice
 
-// Array of movie data being parsed based on "haveWatched" attribute in array of objects.
+// Parse array of movie data objects based on have or have no watched attribute
 
+// Initialization of movie data array.
 
 var movieData = [
     {
@@ -38,6 +39,8 @@ var movieData = [
 
 ]
 
+// Function to parse array of objects based on have or have not watched attribute.
+
 function analyzeMovieData(array){
 
     array.forEach(function(index){
@@ -49,5 +52,7 @@ function analyzeMovieData(array){
     }
     )
 }
+
+// Execute analyze movie data function.
 
 analyzeMovieData(movieData);
