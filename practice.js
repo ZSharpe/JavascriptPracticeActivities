@@ -1,4 +1,4 @@
-// Array Looping Practice
+// *****Array Looping Practice
 
 // Print reverse function to print the reverse of an Array
 
@@ -14,7 +14,7 @@ printReverse([1,2,3,4,5]);
 
 printReverse(["H","C","A","Z"]);
 
-// Array Objects Practice
+// *****Array Objects Practice
 
 // Parse array of movie data objects based on have or have no watched attribute
 
