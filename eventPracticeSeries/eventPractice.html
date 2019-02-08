@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Event Practice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="eventPractice.css">
+    
 </head>
 <body>
+    <!-- Beginning of button background color change -->
     <div style="border:2px, solid" id="bgColor">
         <h1>
             Event Practice
@@ -16,9 +18,8 @@
             This area is to provide some text for event practice.
         </p>
         <button id="button1">Click here to change the background to purple!</button>
-
     </div>
-
+    <!-- End button background activity -->
 
     <!-- Beginning of scorekeeper app area -->
     <div style="border:2px, solid" id="scorekeeper">
@@ -26,12 +27,15 @@
             <span id="score1">0</span> to <span id="score2">0</span>
         </h1>
         <p>
-            Playing to: 5
+            Playing to: <span id="playingTo">5</span>
         </p>
+        <input type="number"> What score are you playing to?</input>
+        <br>
         <button id="player1">Player1</button>
         <button id="player2">Player2</button>
         <button id="reset">Reset</button>
     </div>
+    <!-- End scorekeeper -->
 
 
     <script src="eventPractice.js"></script>
