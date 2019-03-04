@@ -19,3 +19,12 @@ $("input").keypress(function(event){
 
 // .on somewhat equates to event listener setup in base JS
 // .on allows specifying event.
+
+$("div").on("mouseenter", function(){
+    console.log("Mouse Entered");
+})
+
+// Animation: fade out divs on button press
+$("button").on("click",function(){
+    $("div").fadeOut();
+})
